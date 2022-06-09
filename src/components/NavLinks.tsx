@@ -12,7 +12,7 @@ function NavLinks(){
                 <Link to="/"><a className="inline-block mr-4 underline-animation-links" href="/"><li>About</li></a></Link>
                 <Link to="/experiences"><a className="inline-block mr-4 underline-animation-links" href="/experiences"><li>Experiences</li></a></Link>
                 <Link to="/projects"><a className="inline-block mr-4 underline-animation-links" href="/projects"><li>Projects</li></a></Link>
-                <Link to="/resume"><a className="inline-block mr-4 underline-animation-links" href={faizan_resume}><li>Resume</li></a></Link>
+                <a className="inline-block mr-4 underline-animation-links" href={faizan_resume}><li>Resume</li></a>
                 <Link to="/socials"><a className="inline-block mr-0 underline-animation-links" href="/socials"><li>Socials</li></a></Link>
             </ul>
         </div>
