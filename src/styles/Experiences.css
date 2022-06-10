@@ -1,4 +1,11 @@
+ul {
+  list-style-position: outside;
+}
+
+.experience-description {
+  list-style-type: square;
+}
+
 .experience-card {
-    background-color: #1a1f29;
-  }
-  
+  background-color: #1a1f29;
+}

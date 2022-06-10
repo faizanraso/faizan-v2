@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/Experiences.css'
+import "../styles/Experiences.css";
 
 function Experiences() {
   const jobs = [
@@ -7,9 +7,9 @@ function Experiences() {
       title: "AMI Network Analyst (Co-op) @ Hydro One",
       duration: "May 2021 - Present",
       description: [
-        "Quality tested Database code systematically to find and resolve problems/bugs (VBA).",
         "Designed and programmed tools which reduce the amount of time taken to complete weekly tasks/reports by up to 85% using VBA",
-        "Assisting in the development/revision of processes, tools, and procedures documents, as required",
+        "Designed and created an employee performance tracker used by the leadership team for employee reviews",
+        "Detected the over/under usage of several thousand meters in which customers were billed inaccurately",
       ],
     },
     {
@@ -38,9 +38,15 @@ function Experiences() {
             <h1 className="text-gray-100">{jobs[0].title}</h1>
             <p className="text-gray-100 float-right">{jobs[0].duration}</p>
           </div>
-          {jobs[0].description.map((item) => {
-            return <li className="text-gray-300 p-1">{item}</li>;
-          })}
+          <ul>
+            {jobs[0].description.map((item) => {
+              return (
+                <li className="text-gray-300 p-1 experience-description">
+                  {item}
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
       <div className="experience-card rounded-xl text-sm my-10">
@@ -49,9 +55,15 @@ function Experiences() {
             <h1 className="text-gray-100">{jobs[1].title}</h1>
             <p className="text-gray-100 float-right">{jobs[1].duration}</p>
           </div>
-          {jobs[1].description.map((item) => {
-            return <li className="text-gray-300 p-1">{item}</li>;
-          })}
+          <ul>
+            {jobs[1].description.map((item) => {
+              return (
+                <li className="text-gray-300 p-1 experience-description">
+                  {item}
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
       <div className="experience-card rounded-xl text-sm my-10">
@@ -60,9 +72,15 @@ function Experiences() {
             <h1 className="text-gray-100">{jobs[2].title}</h1>
             <p className="text-gray-100 float-right">{jobs[2].duration}</p>
           </div>
-          {jobs[2].description.map((item) => {
-            return <li className="text-gray-300 p-1">{item}</li>;
-          })}
+          <ul>
+            {jobs[2].description.map((item) => {
+              return (
+                <li className="text-gray-300 p-1 experience-description">
+                  {item}
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     </div>
