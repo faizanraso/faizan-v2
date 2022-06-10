@@ -3,7 +3,7 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <div className="mx-5 my-10 sm:w-6/12 sm:mx-auto white-text">
+    <div className="mx-5 my-10 sm:w-6/12 sm:mx-auto text-gray-100">
       <p className="">
         Hey, my name's Faizan Rasool. I'm an Electrical Engineering Student at
         McMaster University (Hamilton, ON). I currently work at Hydro One

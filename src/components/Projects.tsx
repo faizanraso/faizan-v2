@@ -8,42 +8,36 @@ function Projects() {
       description:
         "J.A.R.V.I.S (Just A Rather Very Intelligent System) Writes is a web-app that takes a user entered prompt and returns a AI generated response. Some of the technologies used in this project include React, TypeScript, Axios, react-query and localStorage",
       githubLink: "https://github.com/faizanraso/J.A.R.V.I.S-Writes",
-      projectLink: "jarvis-writes.faizanraso.repl.co/",
     },
     {
       projectName: "Code-Bytes",
       description:
         "Code Bytes is a web-based code editor which allows for collaborative editing in real-time. The video in this projects ReadMe shows a demonstration of this project's features as well as how to use it.",
       githubLink: "https://github.com/faizanraso/code-bytes",
-      projectLink: "",
     },
     {
       projectName: "Perosnal Blog",
       description:
         "A personal blog website created using HTML, CSS and JavaScript (Express, Lodash, EJS and Body Parser). Blog entries are stored on a local mongoose database.",
       githubLink: "https://github.com/faizanraso/Personal-Blog",
-      projectLink: "https://github.com/faizanraso/faizan-v2",
     },
     {
       projectName: "Portfolio",
       description:
         "Developed a responsive portfolio website using various technologies, including: React, Typescript and Tailwind CSS",
-      githubLink: "",
-      projectLink: "",
+      githubLink: "https://github.com/faizanraso/faizan-v2",
     },
     {
       projectName: "Speech Search",
       description:
         "Speech Search is a voice operated Python dictionary. This project uses the SpeechRecognition library and its equipped Google Web Speech API to recognize audio input and search it through the PyDictionary Module.",
       githubLink: "https://github.com/faizanraso/SpeechSearch",
-      projectLink: "",
     },
     {
       projectName: "Sudoku Solver",
       description:
         "Sudoku Solver is a Python program which is able to solve any 9x9 sudoku board. It uses a backtracking algorithm which iterates through the various positions on the board and finds the correct values.",
       githubLink: "https://github.com/faizanraso/Sudoku-Solver",
-      projectLink: "",
     },
   ];
 
@@ -54,7 +48,10 @@ function Projects() {
           <h1 className="flex float-left text-gray-100">
             {projects[0].projectName}
           </h1>
-          <a className="flex float-right" href={projects[0].githubLink}>
+          <a
+            className="flex float-right fill-gray-100"
+            href={projects[0].githubLink}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -71,7 +68,7 @@ function Projects() {
             {projects[1].projectName}
           </h1>
           <a
-            className="flex float-right text-gray-100"
+            className="flex float-right fill-gray-100"
             href={projects[1].githubLink}
           >
             <svg
@@ -91,7 +88,10 @@ function Projects() {
           <h1 className="flex float-left text-gray-100">
             {projects[2].projectName}
           </h1>
-          <a className="flex float-right" href={projects[2].githubLink}>
+          <a
+            className="flex float-right fill-gray-100"
+            href={projects[2].githubLink}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -108,7 +108,7 @@ function Projects() {
             {projects[3].projectName}
           </h1>
           <a
-            className="flex float-right text-gray-100"
+            className="flex float-right fill-gray-100"
             href={projects[3].githubLink}
           >
             <svg
@@ -128,7 +128,10 @@ function Projects() {
           <h1 className="flex float-left text-gray-100">
             {projects[4].projectName}
           </h1>
-          <a className="flex float-right" href={projects[4].githubLink}>
+          <a
+            className="flex float-right fill-gray-100"
+            href={projects[4].githubLink}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -145,7 +148,7 @@ function Projects() {
             {projects[5].projectName}
           </h1>
           <a
-            className="flex float-right text-gray-100"
+            className="flex float-right fill-gray-100"
             href={projects[5].githubLink}
           >
             <svg
