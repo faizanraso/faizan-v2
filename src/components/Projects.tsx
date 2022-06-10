@@ -27,7 +27,7 @@ function Projects() {
     {
       projectName: "Portfolio",
       description:
-        "Personal website created using various technologies, including: React, Typescript and Tailwind CSS",
+        "Developed a responsive portfolio website using various technologies, including: React, Typescript and Tailwind CSS",
       githubLink: "",
       projectLink: "",
     },
